@@ -1,9 +1,11 @@
-// A working threejs-fps-01 entry (Node 22, standard library only): the game is this directory's
-// game/ folder, plain static files the browser loads as ES modules with three.js from an import
-// map, and the program hands it in. It copies game/ and screenshots/ from beside this file to
-// /output and writes /output/dossier.json, the summary the judge reads, with the vendored make.fun
-// library. A starting point, not a winner: a grey room, one rifle and four targets that drop when
-// shot. Build your game, put your PNG or JPEG screenshots in screenshots/ (the first by name is
+// Ember Yard — a threejs-fps-02 entry (Node 22, standard library only): a 5v5 round-based
+// tactical FPS. The game is this directory's game/ folder, plain static files the browser
+// loads as ES modules with three.js from an import map, and the program hands it in. It
+// copies game/ and screenshots/ from beside this file to /output and writes
+// /output/dossier.json, the summary the judge reads, with the vendored make.fun library.
+// Foxes (you + 4 bots) vs Jackals (5 bots) in a 36x28m freight yard: first to 3 rounds
+// (max 5), 15s buy phase, 100s rounds, plant/defuse at Site A, economy and four weapons.
+// Build your game, put your PNG or JPEG screenshots in screenshots/ (the first by name is
 // the cover) and run it.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
